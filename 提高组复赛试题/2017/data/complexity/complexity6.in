@@ -1,0 +1,99 @@
+2
+54 O(n^9)
+F a 8 n
+F b 60 62
+F c 20 n
+F d 81 n
+F e 70 n
+F f 78 n
+E
+E
+E
+E
+E
+E
+F a 76 n
+F b 34 n
+F c 16 n
+F d 2 n
+F e 5 n
+F f 87 n
+F g 8 n
+F h 3 n
+F i n 17
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 90 n
+F b 79 n
+F c 24 n
+F d 58 n
+F e 58 n
+F f 61 32
+F g 5 n
+F h 80 n
+F i 54 n
+F j 5 n
+F k 79 97
+F l 61 86
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+42 O(n^4)
+F a 38 n
+F b 7 n
+F c n n
+F d 79 n
+F e 20 n
+F f 99 7
+F g 68 n
+F h 74 n
+F i 24 n
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 10 n
+F b 65 n
+F c 45 91
+F d n 7
+F e 44 n
+E
+E
+E
+E
+E
+F a 75 n
+F b 55 n
+F c 82 39
+F d 59 n
+F e 38 n
+F f 36 50
+F g 40 n
+E
+E
+E
+E
+E
+E
+E

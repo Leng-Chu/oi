@@ -1,0 +1,50 @@
+5
+10 O(n^4)
+F a 67 n
+F b 20 n
+F c 36 n
+F d 32 n
+F e 44 53
+E
+E
+E
+E
+E
+8 O(n^4)
+F a 34 90
+F b 79 n
+F c 81 88
+F d 37 n
+E
+E
+E
+E
+6 O(n^2)
+F a 44 n
+F b 11 n
+F c 26 38
+E
+E
+E
+10 O(n^5)
+F a 4 n
+F b 10 77
+F c 53 83
+F d 76 n
+F e 88 n
+E
+E
+E
+E
+E
+10 O(n^3)
+F a 40 97
+F b 62 n
+F c 27 n
+F d 24 60
+F e 31 89
+E
+E
+E
+E
+E

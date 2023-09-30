@@ -1,0 +1,190 @@
+3
+44 O(n^3)
+F a 42 50
+F b 42 n
+F c 39 77
+F d 61 99
+F e 36 37
+F f n 28
+F g 26 n
+F h n 1
+F i 68 n
+F j 74 n
+F k 51 n
+F l 72 n
+F m 4 n
+F o 16 n
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 10 59
+F b 36 n
+F c 61 76
+F d 56 62
+F e 28 n
+F f 14 62
+F g 69 n
+F h 41 97
+E
+E
+E
+E
+E
+E
+E
+E
+68 O(n^9)
+F a 87 92
+F b 70 n
+F c 39 n
+F d 69 n
+F e 53 92
+F f 86 n
+F g 31 n
+F h 48 90
+F i 10 n
+F j 64 n
+F k 20 n
+F l 33 n
+F m n 63
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 14 92
+F b 74 n
+F c 55 n
+F d 9 n
+F e 77 93
+F f 61 63
+F g 75 n
+F h 29 56
+F i 49 n
+F j 65 n
+F k 51 99
+F l 64 n
+F m 21 38
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 13 n
+F b 61 n
+F c 34 n
+F d 39 n
+F e 14 n
+F f 60 n
+F g 25 43
+F h 7 n
+E
+E
+E
+E
+E
+E
+E
+E
+74 O(n^11)
+F a 31 n
+F b 31 n
+F c 70 32
+F d 35 92
+F e 56 n
+F f 64 n
+F g 35 n
+F h 25 n
+F i 63 n
+F j 2 n
+F k 68 70
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 53 59
+F b 84 85
+F c 17 n
+F d 47 n
+F e 20 57
+F f 90 94
+F g 90 98
+F h 46 n
+F i 44 n
+F j 24 n
+F k 9 n
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+F a 41 n
+F b 2 48
+F c 32 n
+F d 43 n
+F e 68 n
+F f 53 n
+F g 18 86
+F h 20 n
+F i 56 n
+F j 87 n
+F k 51 n
+F l 90 94
+F m 82 n
+F o 55 n
+F p 70 87
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
