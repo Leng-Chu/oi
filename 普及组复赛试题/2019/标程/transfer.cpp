@@ -1,32 +1,45 @@
 #include<bits/stdc++.h>
 using namespace std;
-int opt,n,t[100001],p[100001],ans,top,m=1,yh[100001],sj[100001],k;//m即为可以使用的优惠券的左端点值，top为右端点值
-bool r[100001];//记录当前票是否用过
+int tim[100010],pri[100010],head=1,tail=0;
+//用队列存储当前有用的优惠票 需要建两个队列 一个存储时间 一个存储价格
 int main()
 {
-	freopen("transfer.in","r",stdin);
-	freopen("transfer.out","w",stdout);
-	scanf("%d",&n);
-	for(int i=1; i<=n; i++)
-	{
-		scanf("%d%d%d",&opt,&p[i],&t[i]);
-		if(opt==0) yh[++top]=p[i],sj[top]=t[i],ans+=p[i];//如果做的是地铁，直接将票价和时间加入
-		else
-		{
-			k=0;//k用来判断是否有票符合条件
-			for(int j=m; j<=top; j++) //从1开始必然TLE 实测大概大样例要跑2s
-			{
-				if(r[j]) continue;//如果用过直接跳过
-				if(t[i]-sj[j]>45) m=j;//如果当前差已经大于45（注意等于是可以的），直接更改左端点值
-				else if(yh[j]>=p[i])
-				{
-					k=j;//只要有能用的直接用
-					r[k]=true;//记录已经使用
-					break;//退出循环
-				}
-			}
-			if(!k) ans+=p[i];//如果用了即k被赋值，则不用出钱，否则还是要付钱的
-		}
-	}
-	printf("%d",ans);
+    freopen("transfer.in","r",stdin);
+    freopen("transfer.out","w",stdout);
+    int n,ans=0;
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++)
+    {
+        int opt,p,t;
+        scanf("%d%d%d",&opt,&p,&t);
+        if(opt==0)
+        {
+            tail++;
+            tim[tail]=t;
+            pri[tail]=p;
+            //如果坐的是地铁，直接将票价和时间加入队列
+            ans+=p;//坐地铁一定会花钱
+        }
+        else
+        {
+            int flag=0;
+            //0表示还没有找到符合条件的优惠票
+            //非0表示最早的符合条件的优惠票编号为flag
+            while(t-tim[head]>45&&head<=tail) head++;
+            //需要保证队列中有元素 即head<=tail
+            //队头是最早入队的优惠票 如果超时了 出队
+            for(int j=head; j<=tail; j++)
+            {
+                if(pri[j]>=p)//如果这个优惠票价格大于p 可以用
+                {
+                    flag=j;//最早的符合条件的优惠票编号为flag
+                    pri[j]=0;//把价格置零表示这张优惠票已经用过了
+                    break;//退出循环
+                }
+            }
+            if(flag==0) ans+=p;//如果用了优惠票则不用出钱，否则还是要付钱的
+        }
+    }
+    printf("%d",ans);
+    return 0;
 }

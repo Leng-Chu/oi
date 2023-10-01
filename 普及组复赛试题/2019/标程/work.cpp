@@ -1,11 +1,5 @@
-#include <iostream>
-#include <stdio.h>
-#include <cstring>
-#include <algorithm>
-#include <queue>
-
+#include<bits/stdc++.h>
 #define N 100005
-
 using namespace std;
 
 struct Edge{

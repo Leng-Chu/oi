@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int ans=0;//ans计数器
 char s[21];//字符串开大一点

@@ -1,7 +1,4 @@
-#include <iostream>
-#include <cstring>
-#include <cstdio>
-
+#include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 105;
 
